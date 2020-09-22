@@ -17,9 +17,18 @@ semantic_labels = [
     {'name': 'jump', 'color': (255, 0, 0)},
     {'name': 'butterfly', 'color': (0, 0, 255)},
     {'name': 'spin', 'color': (0x7b, 0xe4, 0xbc)},
+
+    # Spins
     {'name': 'upright_spin', 'color': (0x88, 0x7b, 0xe4)},
     {'name': 'camel_spin', 'color': (0xe4, 0x7b, 0xa3)},
-    {'name': 'sit_spin', 'color': (0xd7, 0xe4, 0x7b)}
+    {'name': 'sit_spin', 'color': (0xd7, 0xe4, 0x7b)},
+
+    # Jumps
+    {'name': 'toe_loop', 'color': (0x28, 0xd0, 0xd7)},
+    {'name': 'salchow', 'color': (0x7b, 0xe4, 0xbc)},
+    {'name': 'loop', 'color': (0x88, 0x7b, 0xe4)},
+    {'name': 'flip', 'color': (0xe4, 0x7b, 0xa3)},
+    {'name': 'lutz', 'color': (0xd7, 0xe4, 0x7b)}
 ]
 
 parser = argparse.ArgumentParser()
